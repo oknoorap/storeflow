@@ -6,7 +6,7 @@
 	"types": "dist/index.d.mts",
 	"scripts": {
 		"build": "tsdown --dts",
-		"publish:npm": "pnpm public --acess public"
+		"publish:npm": "pnpm publish --access public"
 	},
 	"keywords": [],
 	"author": "",
