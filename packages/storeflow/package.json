@@ -1,16 +1,25 @@
 {
 	"name": "storeflow",
-	"version": "1.0.1",
-	"description": "",
+	"version": "1.0.2",
+	"description": "A small, zero-boilerplate, and highly reactive state management library built on native React hooks.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.mts",
 	"scripts": {
 		"build": "tsdown --dts",
 		"publish:npm": "pnpm publish --access public"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"react",
+		"state",
+		"store"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oknoorap/storeflow.git"
+	},
+	"homepage": "https://github.com/oknoorap/storeflow#readme",
+	"author": "oknoorap",
+	"license": "MIT",
 	"packageManager": "pnpm@10.20.0",
 	"devDependencies": {
 		"@types/react": "^19.2.6",
