@@ -1,0 +1,23 @@
+{
+	"name": "storeflow",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"types": "dist/index.d.mts",
+	"scripts": {
+		"build": "tsdown --dts",
+		"publis:npm": "pnpm public --acess public"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.20.0",
+	"devDependencies": {
+		"@types/react": "^19.2.6",
+		"tsdown": "^0.16.5",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"react": "^19.2.0"
+	}
+}
