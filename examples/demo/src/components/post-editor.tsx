@@ -2,8 +2,7 @@ import { useAnotherOneStore } from "../store/use-another-store";
 import { usePostStore } from "../store/use-post-store";
 
 export function PostEditor() {
-	const { title, content, meta, $title, $content, $meta_updatedAt } =
-		usePostStore();
+	const { title, content, meta, $title, $meta_updatedAt } = usePostStore();
 	const { count, $count } = useAnotherOneStore();
 
 	return (

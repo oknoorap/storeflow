@@ -28,7 +28,7 @@ export const useMiddlewareStore = store({
 	},
 
 	// Middleware 2: Transformation
-	(currentState, incomingUpdate, next) => {
+	(_currentState, incomingUpdate, next) => {
 		if ("data" in incomingUpdate && typeof incomingUpdate.data === "string") {
 			const modifiedData = incomingUpdate.data.toUpperCase();
 			console.log(`[MW 2: Transform] Data capitalized to "${modifiedData}"`);
