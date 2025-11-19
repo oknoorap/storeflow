@@ -11,6 +11,15 @@ export default function App() {
 				This single file contains the entire Storeflow state implementation and
 				three distinct store examples: Basic/Nested, Middleware, and Cross-Store
 				Dependencies. The dependency effect for store 3 is now strongly typed!
+				<br />
+				See source code:{" "}
+				<a
+					href="https://github.com/oknoorap/storeflow/blob/main/examples/demo/src/App.tsx"
+					target="_blank"
+					className="text-indigo-500 hover:underline"
+				>
+					src/App.tsx
+				</a>
 			</p>
 			<div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
 				<PostEditor />
