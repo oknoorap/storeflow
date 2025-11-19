@@ -12,7 +12,7 @@ export default function App() {
 				three distinct store examples: Basic/Nested, Middleware, and Cross-Store
 				Dependencies. The dependency effect for store 3 is now strongly typed!
 				<br />
-				See source code:{" "}
+				View the source code:{" "}
 				<a
 					href="https://github.com/oknoorap/storeflow/blob/main/examples/demo/src/App.tsx"
 					target="_blank"
